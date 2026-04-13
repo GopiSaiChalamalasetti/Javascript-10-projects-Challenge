@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 223, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.weatherform{
+    margin: 20px;
+
+}
+.cityinput{
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(148, 144, 144);
+    border-radius: 10px;
+    border:2px solid rgb(87, 84, 84);
+    font-weight: bold;
+    width: 250px;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    font-weight: bold;
+    font-size:18px ;
+    background-color: rgb(96, 236, 96);
+    cursor: pointer;
+    border: 2px solid rgb(47, 45, 45);
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color:  rgb(49, 207, 49);
+}
+.card{
+    background:linear-gradient(to right, #ff7e5f, #3578d0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 6px 5px 5px rgb(124, 120, 120);
+    min-width: 300px;
+    border-radius: 7px;
+    border: none;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.citydisplay,.tempdisplay{
+font-size: 2.5rem;
+font-weight: bold;
+color:rgb(38, 37, 37);
+margin-bottom: 0px;
+}
+tempdisplay{
+font-size: 1.7rem;
+font-weight: bold;
+color:rgb(38, 37, 37);
+margin-bottom: 0px;
+}
+.humiditydisplay{
+    font-weight: bold;
+    margin-bottom: 5px;
+  color:rgb(38, 37, 37);
+}
+.descdisplay{
+    font-style:italic;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:rgb(38, 37, 37);
+}
+.errordisplay{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:rgb(38, 37, 37);
+
+}

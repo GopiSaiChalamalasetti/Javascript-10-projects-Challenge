@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter_program</title>
+</head>
+<style>
+    #count{
+        display: block;
+        text-align: center;
+        font-size: 150px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+    #cont{
+        text-align: center;
+    }
+    .buttons{
+        padding: 10px 20px;
+        font-size: 25px;
+        color: white;
+        background-color: rgba(43, 170, 244, 0.594);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.30s;
+        border: none;
+
+    }
+    .buttons:hover{
+        background-color: rgb(10, 125, 197);
+    }
+    .buttons:active{
+        background-color: rgb(61, 35, 177);
+    }
+</style>
+<body>
+    
+    <label id="count">0</label>
+    <div id="cont">
+    <button class="buttons" id="dec">decrease</button>
+    <button class="buttons" id="reset">reset</button>
+    <button class="buttons" id="inc">increase</button>
+    
+    </div>
+    <script src="count.js"></script>
+</body>
+</html>
